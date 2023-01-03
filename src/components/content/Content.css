@@ -1,0 +1,25 @@
+.Content {
+    --imgSize: 50px;
+    width: fit-content;
+    height: fit-content;
+}
+
+.Content img {
+    width: var(--imgSize);
+    height: var(--imgSize);
+    margin: 10px 0;
+    border-radius: 8px;
+}
+
+.Content img:hover {
+    transform: scale(1.2);
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.ContentCerti img {
+    --certiImgSize: 65px;
+    width: var(--certiImgSize);
+    height: var(--certiImgSize);
+    border-radius: 0;
+}
