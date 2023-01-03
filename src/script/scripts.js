@@ -2,7 +2,7 @@ export const experiences = [
     {
         id: 'ABB',
         position: 'Incoming Data Analytics Intern',
-        length: 1,
+        length: 0,
         link: 'https://res.cloudinary.com/dbweq69kp/image/upload/v1672681478/Portfolio/abb_clmt7p.jpg',
     },
     {
@@ -14,32 +14,32 @@ export const experiences = [
     {
         id: 'Huawei',
         position: 'Information Technology Intern',
-        length: 1,
+        length: 0.5,
         link: 'https://res.cloudinary.com/dbweq69kp/image/upload/v1672681030/Portfolio/huawei_xykzuz.jpg',
     },
     {
         id: 'Elisa Corporation',
         position: 'Software Developer Intern',
-        length: 1,
+        length: 4,
         link: 'https://res.cloudinary.com/dbweq69kp/image/upload/v1672681239/Portfolio/elisa_vgpqhq.jpg',
     },
     {
         id: 'Futurice',
         position: 'Data Specialist Intern',
-        length: 1,
+        length: 3.5,
         link: 'https://res.cloudinary.com/dbweq69kp/image/upload/v1672681142/Portfolio/futurice_ep92h7.jpg',
     },
     {
         id: 'Aalto University',
         position: 'Teaching Assistant',
-        length: 1,
+        length: 3,
         link: 'https://res.cloudinary.com/dbweq69kp/image/upload/v1672683503/Portfolio/aalto_k83ote.jpg',
 
     },
     {
         id: 'Upwork',
         position: 'Game Developer',
-        length: 1,
+        length: 0.8,
         link: 'https://res.cloudinary.com/dbweq69kp/image/upload/v1672681325/Portfolio/upwork_gozwxs.jpg',
         
     },

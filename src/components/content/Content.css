@@ -18,7 +18,7 @@
 }
 
 .ContentCerti img {
-    --certiImgSize: 65px;
+    --certiImgSize: 60px;
     width: var(--certiImgSize);
     height: var(--certiImgSize);
     border-radius: 0;
