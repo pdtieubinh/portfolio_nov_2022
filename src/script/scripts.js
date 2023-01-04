@@ -109,19 +109,19 @@ export const educations = [
 
 export const certificates = [
     {
-        id: 'AWS Certified Cloud Practitioner (CLF)',
+        id: 'AWS Certified Cloud Practitioner (Exam CLF)',
         link: 'https://res.cloudinary.com/dbweq69kp/image/upload/v1672685748/Certificates/aws_phg9po.png',
     },
     {
-        id: 'Microsoft Certified: Azure Data Fundametals (DP-900)',
+        id: 'Microsoft Certified: Azure Data Fundametals (Exam DP-900)',
         link: 'https://res.cloudinary.com/dbweq69kp/image/upload/v1672685749/Certificates/azdata_a7c0u1.png',
     },
     {
-        id: 'Microsoft Certified: Azure Fundamentals (AZ-900)',
+        id: 'Microsoft Certified: Azure Fundamentals (Exam AZ-900)',
         link: 'https://res.cloudinary.com/dbweq69kp/image/upload/v1672685828/Certificates/az_jenb8d.png',
     },
     {
-        id: 'Professional Scrum Master I (PSM I)',
+        id: 'Professional Scrum Master I (Exam PSM I)',
         link: 'https://res.cloudinary.com/dbweq69kp/image/upload/v1672738391/Certificates/psmi_xq2gu9.png',
     }
 ]
