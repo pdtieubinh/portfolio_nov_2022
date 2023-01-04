@@ -1,6 +1,27 @@
 import { Chart } from "react-google-charts";
 import { experiences } from "../../script/scripts";
 
+// Timeline chart
+export function ExpTimelineChart() {
+  const expCopy = [...experiences]
+  const columns = [
+    { type: "string", id: "Type" },
+    { type: "string", id: "Company" },
+    { type: "date", id: "Start" },
+    { type: "date", id: "End" },
+  ];
+
+  const rows = [...expCopy.map(exp => ['Company', exp.id, exp.from, exp.to])]
+
+  const data = [columns, ...rows];
+
+  return <Chart 
+            chartType="Timeline" 
+            data={data} 
+            width="100%"
+            height="110px"/>;
+}
+
 // Commitment chart
 export function ExpTimeChart() {
     const expCopy = [...experiences].reverse()
@@ -9,14 +30,17 @@ export function ExpTimeChart() {
         ...expCopy.map(exp => [exp.id, exp.length])
     ];
     const options = {
-        title: "Length of work (months); companies are in chronological order",
+        title: "Length of work (months) chronologically",
         pointSize: 6,
+        colors: ['purple']
     }
     return (
         <Chart
         chartType="LineChart"
         data={data}
         options={options}
+        width="100%"
+        height="180px"
         />
     );
 }
@@ -73,6 +97,8 @@ export function ExpRateChart() {
       chartType="BubbleChart"
       data={data}
       options={options}
+      width="100%"
+      height="200px"
     />
   );
 }

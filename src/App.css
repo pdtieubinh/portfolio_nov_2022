@@ -3,5 +3,20 @@
     background-color: var(--generalBackground);
     padding: 0 1vw;
     justify-content: center; 
-    
 }
+
+/* @media only screen and (min-width: 900px) {
+    .SubApp {
+        height: 100vh;
+        overflow: scroll;
+    }
+    
+    .SubApp::-webkit-scrollbar {
+        display: none;
+    }
+    
+    .SubApp {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+}  */

@@ -1,46 +1,24 @@
 import './App.css';
 import Grid from '@mui/material/Grid';
-import Section from './components/section/Section';
-import { experiences, educations, certificates } from './script/scripts';
-import ChartSection from './components/charts/ChartSection';
-import { ExpRateChart, ExpTimeChart } from './components/charts/exp';
+import ExpSub from './components/subApp/ExpSub';
+import EduSub from './components/subApp/EduSub';
 
 export default function App() {
   return (
-    <Grid container className="App" spacing={3}>
+    <Grid container className="App" spacing={2}>
+      {/* Grid items follow the 1-2-1 size rule */}
 
-      {/* Act as big columns of the view*/}
-      <Grid item xs={10} md={5}>
-        {/* Each column is another grid container */}
-        <Grid container spacing={3}>
-          {/* -> Show all experiences */}
-          <Section title="Experiences" scripts={ experiences }/>
+      {/* Cover panel spans the whole viewport */}
+      <Grid item xs={12}></Grid>
 
-          {/* -> Show all experiences analytics */}
-          <ChartSection title="Experiences Analytics">
-            <ExpTimeChart size={12} id={1}/>
-          </ChartSection>
+      {/* This item is 1(-2-1) */}
+      <Grid item xs={12} md={3}></Grid>
 
-          {/* -> Show all experiences analytics */}
-          <ChartSection title="Experiences Analytics">
-            <ExpRateChart size={12} id={1}/>
-          </ChartSection>
-        </Grid>
-      </Grid>
+      {/* This item is (1-)2(-1) */}
+      <Grid item xs={12} md={6}><ExpSub/></Grid>
 
-      {/* Act as big columns of the view*/}
-      <Grid item xs={10} md={5}>
-        {/* Each column is another grid container */}
-        <Grid container spacing={3}>
-
-          {/* -> Show all certificates */}
-          <Section title="Certificates" scripts={ certificates }/>
-
-          {/* -> Show all educations */}
-          <Section title="Educations" scripts={ educations }/>
-        </Grid>
-      </Grid>
-
+      {/* This item is (1-2-)1 */}
+      <Grid item xs={12} md={3}><EduSub/></Grid>
     </Grid>
   );
 }

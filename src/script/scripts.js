@@ -8,6 +8,8 @@ export const experiences = [
         benefit: 0,
         size: 105600,
         type: 'Internship',
+        from: new Date(2023, 1, 10),
+        to: new Date(2023, 1, 15),
         link: 'https://res.cloudinary.com/dbweq69kp/image/upload/v1672681478/Portfolio/abb_clmt7p.jpg',
     },
     {
@@ -19,6 +21,8 @@ export const experiences = [
         benefit: 1000,
         size: 4000,
         type: 'Permanent',
+        from: new Date(2022, 12, 5),
+        to: new Date(2023, 1, 9),
         link: 'https://res.cloudinary.com/dbweq69kp/image/upload/v1672681085/Portfolio/fnz_lcxchr.jpg',
     },
     {
@@ -30,6 +34,8 @@ export const experiences = [
         benefit: 500,
         size: 195000,
         type: 'Internship',
+        from: new Date(2022, 10, 31),
+        to: new Date(2022, 11, 23),
         link: 'https://res.cloudinary.com/dbweq69kp/image/upload/v1672681030/Portfolio/huawei_xykzuz.jpg',
     },
     {
@@ -41,6 +47,8 @@ export const experiences = [
         benefit: 330,
         size: 5097,
         type: 'Internship',
+        from: new Date(2022, 5, 1),
+        to: new Date(2022, 9, 1),
         link: 'https://res.cloudinary.com/dbweq69kp/image/upload/v1672681239/Portfolio/elisa_vgpqhq.jpg',
     },
     {
@@ -52,6 +60,8 @@ export const experiences = [
         benefit: 400,
         size: 675,
         type: 'Internship',
+        from: new Date(2022, 1, 13),
+        to: new Date(2022, 4, 15),
         link: 'https://res.cloudinary.com/dbweq69kp/image/upload/v1672681142/Portfolio/futurice_ep92h7.jpg',
     },
     {
@@ -63,6 +73,8 @@ export const experiences = [
         benefit: 0,
         size: 4200,
         type: 'Fixed-term Contract',
+        from: new Date(2021, 4, 16),
+        to: new Date(2021, 6, 13),
         link: 'https://res.cloudinary.com/dbweq69kp/image/upload/v1672683503/Portfolio/aalto_k83ote.jpg',
 
     },
@@ -75,6 +87,8 @@ export const experiences = [
         benefit: 0,
         size: 2,
         type: 'Fixed-term Contract',
+        from: new Date(2021, 2, 1),
+        to: new Date(2021, 3, 1),
         link: 'https://res.cloudinary.com/dbweq69kp/image/upload/v1672681325/Portfolio/upwork_gozwxs.jpg',
         
     },
