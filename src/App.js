@@ -20,6 +20,11 @@ export default function App() {
           <ChartSection title="Experiences Analytics">
             <ExpTimeChart size={12} id={1}/>
           </ChartSection>
+
+          {/* -> Show all experiences analytics */}
+          <ChartSection title="Experiences Analytics">
+            <ExpRateChart size={12} id={1}/>
+          </ChartSection>
         </Grid>
       </Grid>
 
@@ -27,6 +32,7 @@ export default function App() {
       <Grid item xs={10} md={5}>
         {/* Each column is another grid container */}
         <Grid container spacing={3}>
+
           {/* -> Show all certificates */}
           <Section title="Certificates" scripts={ certificates }/>
 
