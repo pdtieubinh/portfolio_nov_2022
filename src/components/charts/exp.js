@@ -19,7 +19,8 @@ export function ExpTimelineChart() {
             chartType="Timeline" 
             data={data} 
             width="100%"
-            height="110px"/>;
+            height="110px"
+            />;
 }
 
 // Commitment chart

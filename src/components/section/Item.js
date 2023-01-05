@@ -9,7 +9,8 @@ export default function Item({ type, script }) {
   const sizeByType = {
     'experiences': [4, 3, 3],
     'educations': [4, 3, 6],
-    'certificates': [4, 3, 6]
+    'mooc': [4, 3, 6],
+    'certified exams': [4, 3, 6],
   }
   return (
     <Grid 

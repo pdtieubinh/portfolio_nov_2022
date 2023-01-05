@@ -13,17 +13,13 @@ export default function Content({ type, script }) {
     } else if (type.toLowerCase() === 'educations') {
         return (
             <div className='Content'>
-                <Tooltip title={`${script.degree} @ ${script.id}`}>
-                    <img alt={`${script.id} logo`} src={ script.link }/>
-                </Tooltip>
+                <TriggerHover type={type} script={script}/>
             </div>
           );
     } else {
         return (
             <div className='Content ContentCerti'>
-                <Tooltip title={`${script.id}`}>
-                    <img alt={`${script.id} logo`} src={ script.link }/>
-                </Tooltip>
+                <TriggerHover type={type} script={script}/>
             </div>
           );
     }
