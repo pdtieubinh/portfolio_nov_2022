@@ -50,9 +50,15 @@ function InfoPanel({ style, type, script }) {
         return (
             <div className='InfoPanel' style={style}>
                 <p>
-                    <b>{script.position}</b> @ <b>{script.id}</b>   
+                    <b>{script.position}</b>
                 </p>
-                <p>{dateToString(script.from)} - {dateToString(script.to)} &middot; {script.type}</p>
+                <p>
+                    <b>{script.id}</b> &middot; {script.type}
+                </p>
+                <p>{dateToString(script.from)} - {dateToString(script.to)} &middot; {script.place}</p>
+
+                <div className='LineBreak'></div>
+                {script.desc.map(d => d)}
             </div>
         )
     }
