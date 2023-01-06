@@ -1,27 +1,21 @@
 import './Content.css';
-import Tooltip from '@mui/material/Tooltip';
-import { TriggerHover } from './info';
+import { useState } from "react"
+import { InfoPanel } from './InfoPanel';
 
-/* Contents are buttons inside Item grids that trigger information panel */
+// Full content to be used elsewhere
 export default function Content({ type, script }) {
-    if (type.toLowerCase() === 'experiences') {
-        return (
-            <div className='Content'>
-                <TriggerHover type={type} script={script}/>
-            </div>
-          );
-    } else if (type.toLowerCase() === 'educations') {
-        return (
-            <div className='Content'>
-                <TriggerHover type={type} script={script}/>
-            </div>
-          );
-    } else {
-        return (
-            <div className='Content ContentCerti'>
-                <TriggerHover type={type} script={script}/>
-            </div>
-          );
-    }
-  
+    const [hovered, setHovered] = useState(false)
+
+    // Calculate everythin on hover
+    const hover = () => { setHovered(true) }
+    const unhover = () => { setHovered(false) }
+
+    return (
+        <div 
+        className={`Content ${ (['certified exams', 'mooc'].includes(type.toLowerCase())) ? 'ContentCerti': ''}`}
+        onMouseEnter={hover} onMouseLeave={unhover}>
+            <img alt={`${script.id} logo`} src={ script.link }/>
+            { (hovered) ? <InfoPanel type={type} script={script}/> : null }
+        </div>
+    )
 }
