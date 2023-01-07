@@ -35,8 +35,8 @@ export const experiences = [
         benefit: 0,
         size: 105600,
         type: 'Internship',
-        from: new Date(2023, 1, 10),
-        to: new Date(2023, 1, 15),
+        from: new Date(2023, 0, 12),
+        to: new Date(2023, 3, 12),
         link: 'https://res.cloudinary.com/dbweq69kp/image/upload/v1672681478/Portfolio/abb_clmt7p.jpg',
         desc: [
             <p key={1}>To be updated</p>
@@ -52,8 +52,8 @@ export const experiences = [
         benefit: 1000,
         size: 4000,
         type: 'Full-time',
-        from: new Date(2022, 12, 5),
-        to: new Date(2023, 1, 9),
+        from: new Date(2022, 11, 5),
+        to: new Date(2023, 0, 9),
         link: 'https://res.cloudinary.com/dbweq69kp/image/upload/v1672681085/Portfolio/fnz_lcxchr.jpg',
         desc: [
             <p key={1}>Complete training on web software development:</p>,
@@ -74,8 +74,8 @@ export const experiences = [
         benefit: 500,
         size: 195000,
         type: 'Internship',
-        from: new Date(2022, 10, 31),
-        to: new Date(2022, 11, 23),
+        from: new Date(2022, 9, 31),
+        to: new Date(2022, 10, 23),
         link: 'https://res.cloudinary.com/dbweq69kp/image/upload/v1672681030/Portfolio/huawei_xykzuz.jpg',
         desc: [
             <p key={1}>Complete training on multiple technological fields:</p>,
@@ -94,8 +94,8 @@ export const experiences = [
         benefit: 330,
         size: 5097,
         type: 'Internship',
-        from: new Date(2022, 5, 1),
-        to: new Date(2022, 9, 1),
+        from: new Date(2022, 4, 1),
+        to: new Date(2022, 8, 1),
         link: 'https://res.cloudinary.com/dbweq69kp/image/upload/v1672681239/Portfolio/elisa_vgpqhq.jpg',
         desc: [
             <p key={1}>- Designed and implemented a structured database schema to store <b>100+</b> GB of global user data</p>,
@@ -113,8 +113,8 @@ export const experiences = [
         benefit: 400,
         size: 675,
         type: 'Internship',
-        from: new Date(2022, 1, 13),
-        to: new Date(2022, 4, 15),
+        from: new Date(2022, 0, 13),
+        to: new Date(2022, 3, 15),
         link: 'https://res.cloudinary.com/dbweq69kp/image/upload/v1672681142/Portfolio/futurice_ep92h7.jpg',
         desc: [
             <p key={1}>- Initiated and built an API validation solution that automates the testing process for the entire team</p>,
@@ -133,8 +133,8 @@ export const experiences = [
         benefit: 0,
         size: 4200,
         type: 'Fixed-term',
-        from: new Date(2021, 4, 16),
-        to: new Date(2021, 6, 13),
+        from: new Date(2021, 3, 16),
+        to: new Date(2021, 5, 13),
         link: 'https://res.cloudinary.com/dbweq69kp/image/upload/v1672683503/Portfolio/aalto_k83ote.jpg',
         desc: [
             <p key={1}>Course CS-A1153 Databases for Data Science:</p>,
@@ -154,8 +154,8 @@ export const experiences = [
         benefit: 0,
         size: 2,
         type: 'Fixed-term',
-        from: new Date(2021, 2, 1),
-        to: new Date(2021, 3, 1),
+        from: new Date(2021, 1, 1),
+        to: new Date(2021, 2, 1),
         link: 'https://res.cloudinary.com/dbweq69kp/image/upload/v1672681325/Portfolio/upwork_gozwxs.jpg',
         desc: [
             <p key={1}>- Analysed requests and consulted clients on structuring game features that ensure attractiveness and technical feasibility</p>,
