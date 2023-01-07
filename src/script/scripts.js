@@ -41,7 +41,9 @@ export const experiences = [
         desc: [
             <p key={1}>To be updated</p>
         ],
-        place: 'Helsinki, Finland'
+        place: 'Helsinki, Finland',
+        languages: ['Python'],
+        field: 'Data Science'
     },
     {
         id: 'FNZ Group',
@@ -63,7 +65,9 @@ export const experiences = [
             <p key={5}>- JavaScript, React</p>,
             <p key={6}>- Git, GitLab</p>
         ],
-        place: 'Helsinki, Finland'
+        place: 'Helsinki, Finland',
+        languages: ['C#', 'JavaScript', 'SQL'],
+        field: 'Software Engineering'
     },
     {
         id: 'Huawei',
@@ -83,7 +87,9 @@ export const experiences = [
             <p key={3}>- Artificial intelligence and machine learning</p>,
             <p key={4}>- Cloud computing services</p>
         ],
-        place: 'Helsinki, Finland'
+        place: 'Helsinki, Finland',
+        languages: ['Python'],
+        field: 'Information Communication Technologies'
     },
     {
         id: 'Elisa',
@@ -102,7 +108,9 @@ export const experiences = [
             <p key={2}>- Built automated machine learning features to optimise the models and hyper-parameters selection process</p>,
             <p key={3}>- Technology stack: Python, SQL, Pandas, scikit-learn, Azure, Databricks, MLflow, AutoML</p>
         ],
-        place: 'Helsinki, Finland'
+        place: 'Helsinki, Finland',
+        languages: ['Python', 'SQL'],
+        field: 'Software Engineering'
     },
     {
         id: 'Futurice',
@@ -122,7 +130,9 @@ export const experiences = [
             <p key={3}>- The automation solution hence saves the team <b>2,000+</b> euros on monthly operational cost</p>,
             <p key={4}>- Technology stack: Python, pytest, AWS S3, Azure, YAML, JSON</p>
         ],
-        place: 'Helsinki, Finland'
+        place: 'Helsinki, Finland',
+        languages: ['Python'],
+        field: 'Data Science'
     },
     {
         id: 'Aalto University',
@@ -143,7 +153,9 @@ export const experiences = [
             <p key={4}>- Organised exercise feedback sessions that helps improve students' grades by over <b>20%</b></p>,
             <p key={5}>- Technology stack: Python, SQL, Matplotlib, Seaborn</p>
         ],
-        place: 'Espoo, Finland'
+        place: 'Espoo, Finland',
+        languages: ['Python', 'SQL'],
+        field: 'Others'
     },
     {
         id: 'Upwork',
@@ -163,7 +175,9 @@ export const experiences = [
             <p key={3}>- Built and delivered the game from scratch; the contract was rated <b>5</b> stars based on the product quality</p>,
             <p key={4}>- Technology stack: C#, Unity (game engine), Adobe Photoshop</p>
         ],
-        place: 'Remote, Ireland'
+        place: 'Remote, Ireland',
+        languages: ['C#'],
+        field: 'Software Engineering'
     },
 ]
 

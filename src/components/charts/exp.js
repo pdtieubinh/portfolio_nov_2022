@@ -90,6 +90,9 @@ export function ExpRateChart() {
     sizeAxis: {
       maxSize: 35,
       minSize: 10,
+    },
+    bubble: {
+      opacity: 0.85
     }
   };
 
@@ -100,6 +103,77 @@ export function ExpRateChart() {
       options={options}
       width="100%"
       height="200px"
+    />
+  );
+}
+
+export function ExpFieldChart() {
+  const copyData = [...experiences]
+  let extractedData = {}
+  copyData.forEach(data => {
+    if (extractedData[data.field]) extractedData[data.field]++
+    else extractedData[data.field] = 1
+  })
+
+  let data = [["Field", "Experiences Count"]];
+  for (let i in extractedData) {
+    data = [...data, [i, extractedData[i]]]
+  }
+
+  const options = {
+    title: "Experience Field Distribution",
+    is3D: true,
+  };
+
+  return (
+    <Chart
+      chartType="PieChart"
+      data={data}
+      options={options}
+      width="100%"
+      height="200px"
+    />
+  );
+}
+
+export function ExpLangChart() {
+  const copyData = [...experiences]
+  let extractedData = {}
+  copyData.forEach(data => {
+    data.languages.forEach(lang => {
+      if (extractedData[lang]) extractedData[lang]++
+      else extractedData[lang] = 1
+    })
+  })
+
+  let coreData = [];
+  for (let i in extractedData) {
+    coreData = [...coreData, [i, extractedData[i]]]
+  }
+
+  coreData.sort((a, b) => b[1] - a[1])
+  const data = [["Language", "Experiences Count"], ...coreData]
+
+  const options = {
+    title: "Most used programming languages",
+    colors: ['#007dd6'],
+    chartArea: { width: "50%" },
+    hAxis: {
+      title: "Used in no. experiences",
+      minValue: 0,
+    },
+    vAxis: {
+      title: "Language",
+    },
+  };
+
+  return (
+    <Chart
+      chartType="BarChart"
+      width="100%"
+      height="200px"
+      data={data}
+      options={options}
     />
   );
 }
