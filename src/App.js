@@ -8,7 +8,7 @@ import ProSub from './components/subApp/ProSub';
 
 export default function App() {
   // Disable unwanted warnings
-  //console.warn = () => {};
+  console.warn = () => {};
 
   return (
     <Grid container className="App">

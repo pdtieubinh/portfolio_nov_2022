@@ -189,7 +189,7 @@ export const educations = [
     },
     {
         id: 'High School for The Gifted - VNU',
-        degree: 'High School Diploma',
+        degree: 'High School Diploma, Mathematics',
         link: 'https://res.cloudinary.com/dbweq69kp/image/upload/v1672685481/Portfolio/ptnk_fzgqbj.jpg'
     }
 ]
@@ -200,23 +200,31 @@ export const moocs = [
         by: 'Udemy',
         instructor: 'Colt Steel',
         link: 'https://res.cloudinary.com/dbweq69kp/image/upload/v1673008491/mooc/udemy_qf5a4m.jpg',
+        topic: 'Software Engineering',
+        provider: 'Udemy'
     },
     {
         id: 'Google Data Analytics',
         by: 'Google on Coursera',
         instructor: 'Google Analytics team',
         link: 'https://res.cloudinary.com/dbweq69kp/image/upload/v1673008487/mooc/google_njrcuo.jpg',
+        topic: 'Data Analytics',
+        provider: 'Coursera'
     },
     {
         id: 'Deep Learning Specialisation',
         by: 'DeepLearning.AI on Coursera',
         instructor: 'Adrew Ng.',
         link: 'https://res.cloudinary.com/dbweq69kp/image/upload/v1673008483/mooc/deeplearning_n2hw5m.jpg',
+        topic: 'Machine Learning / AI',
+        provider: 'Coursera'
     },
     {
         id: 'Machine Learning',
         by: 'Stanford Online on Coursera',
         instructor: 'Andrew Ng.',
         link: 'https://res.cloudinary.com/dbweq69kp/image/upload/v1673008480/mooc/stanford_zuqxxj.jpg',
+        topic: 'Machine Learning / AI',
+        provider: 'Coursera'
     }
 ]

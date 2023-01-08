@@ -9,7 +9,7 @@ export default function ChartSection({ title, children }) {
         <SectionFrame>
             <p>{title}</p>
             <Grid container className='Chart'>
-                {childrenArray.map(c => <Grid item xs={c.props.size} key={c.props.id}>
+                {childrenArray.map(c => <Grid item xs={c.props.xs} md={c.props.md} key={c.props.id}>
                         {c}
                     </Grid>)}
             </Grid>

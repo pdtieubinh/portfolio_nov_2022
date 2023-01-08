@@ -123,6 +123,9 @@ export function ExpFieldChart() {
   const options = {
     title: "Experience Field Distribution",
     is3D: true,
+    legend: {
+      position: 'top'
+    },
   };
 
   return (

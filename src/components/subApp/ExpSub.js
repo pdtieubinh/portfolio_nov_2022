@@ -12,24 +12,24 @@ export default function ExpSub() {
 
           {/* -> Double charts, show all technical analytics */}
           <ChartSection title="Experiences Analytics">
-            <ExpFieldChart size={6} id={1}/>
-            <ExpLangChart size={6} id={1}/>
+            <ExpFieldChart xs={6} md={6} id={1}/>
+            <ExpLangChart  xs={6} md={6} id={2}/>
           </ChartSection>
 
           {/* -> Show all experiences analytics */}
           <ChartSection title="Experiences Timeline">
-            <ExpTimelineChart size={12} id={1}/>
+            <ExpTimelineChart  xs={12} md={12} id={1}/>
           </ChartSection>
 
           {/* -> Show all experiences analytics */}
           <ChartSection title="Experiences Analytics">
-            <ExpTimeChart size={12} id={1}/>
+            <ExpTimeChart  xs={12} md={12} id={1}/>
           </ChartSection>
 
 
           {/* -> Show all experiences analytics */}
           <ChartSection title="Experiences Analytics">
-            <ExpRateChart size={12} id={1}/>
+            <ExpRateChart  xs={12} md={12} id={1}/>
           </ChartSection>
         </Grid>
     )

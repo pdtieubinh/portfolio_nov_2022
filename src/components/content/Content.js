@@ -28,7 +28,7 @@ export default function Content({ type, script }) {
     return (
         <>
         <div 
-        className={`Content ${ (['certified exams', 'mooc'].includes(type.toLowerCase())) ? 'ContentCerti': ''}`}
+        className={`Content ${ (type.toLowerCase() === 'certified exams') ? 'ContentCerti': ''}`}
         onMouseLeave={unhover}>
             <img alt={`${script.id} logo`} src={ script.link } onMouseEnter={hover}/>
             {/* (hovered) ? <InfoPanel type={type} script={script}/> : null */}
