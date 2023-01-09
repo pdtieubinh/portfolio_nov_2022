@@ -1,3 +1,26 @@
+export const profile = [
+    {
+        id: 'WhatsApp',
+        info: '+358 414805030',
+        link: 'https://res.cloudinary.com/dbweq69kp/image/upload/v1673293300/Certificates/whatsapp_pafsge.png'
+    },
+    {
+        id: 'Email',
+        info: 'binh.pham5918@gmail.com',
+        link: 'https://res.cloudinary.com/dbweq69kp/image/upload/v1673292728/Certificates/gmail_vzl1gr.png'
+    },
+    {
+        id: 'LinkedIn',
+        info: 'https://www.linkedin.com/in/binh-pham-aab6a719a/',
+        link: 'https://res.cloudinary.com/dbweq69kp/image/upload/v1673291696/Certificates/linkedin_lfjhlq.jpg',
+    },
+    {
+        id: 'GitHub',
+        info: 'https://github.com/pdtieubinh',
+        link: 'https://res.cloudinary.com/dbweq69kp/image/upload/v1673291696/Certificates/github_acpvjl.jpg'
+    }
+]
+
 export const certified = [
     {
         id: 'AWS Certified Cloud Practitioner',

@@ -7,10 +7,10 @@ Content (logos of companies, schools, certificates, etc.) */
 export default function Item({ type, script }) {
   const lowerCaseType = type.toLowerCase()
   const sizeByType = {
+    'certified exams': [4, 3, 6],
     'experiences': [4, 3, 3],
     'educations': [4, 3, 6],
     'mooc': [4, 3, 6],
-    'certified exams': [4, 3, 6],
   }
   return (
     <Grid 

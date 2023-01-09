@@ -1,0 +1,7 @@
+.CoverPanel {
+    width: 100vw;
+    height: 0;
+    padding: 0;
+    background-color: white;
+    box-shadow: rgb(165, 165, 165) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}

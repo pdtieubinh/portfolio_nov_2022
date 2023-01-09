@@ -1,26 +1,17 @@
+.UpperApp {
+    background-color: var(--generalBackground);
+    height: fit-content;
+    width: 100vw;
+}
+
 .App {
     height: fit-content;
     background-color: var(--generalBackground);
-    padding: 0 5vw;
+    padding: 4vh 5vw;
     justify-content: center; 
+    margin-bottom: 60px;
 }
 
 .SubApp {
     padding: 8px;
 }
-
-/* @media only screen and (min-width: 900px) {
-    .SubApp {
-        height: 100vh;
-        overflow: scroll;
-    }
-    
-    .SubApp::-webkit-scrollbar {
-        display: none;
-    }
-    
-    .SubApp {
-        -ms-overflow-style: none;
-        scrollbar-width: none;
-    }
-}  */

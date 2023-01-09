@@ -1,6 +1,8 @@
+import './Cover.css'
+
 export default function CoverPanel() {
     return (
-        <div>
+        <div className="CoverPanel">
             
         </div>
     )

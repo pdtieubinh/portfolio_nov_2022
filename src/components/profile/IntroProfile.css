@@ -1,0 +1,17 @@
+.ProfileAvatar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ProfileAvatar img {
+    width: 80%;
+    height: 100px
+}
+
+.ProfileAvatar p {
+    margin: 10px 0;
+    overflow: hidden;
+}
