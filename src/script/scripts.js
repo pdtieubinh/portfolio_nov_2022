@@ -4,24 +4,28 @@ export const certified = [
         by: 'Amazon Web Services',
         exam: 'CLF-C01',
         link: 'https://res.cloudinary.com/dbweq69kp/image/upload/v1672685748/Certificates/aws_phg9po.png',
+        topic: 'Cloud Computing',
     },
     {
         id: 'Azure Data Fundametals',
         by: 'Microsoft',
         exam: 'DP-900',
         link: 'https://res.cloudinary.com/dbweq69kp/image/upload/v1672685749/Certificates/azdata_a7c0u1.png',
+        topic: 'Cloud Computing',
     },
     {
         id: 'Azure Fundamentals',
         by: 'Microsoft',
         exam: 'AZ-900',
         link: 'https://res.cloudinary.com/dbweq69kp/image/upload/v1672685828/Certificates/az_jenb8d.png',
+        topic: 'Cloud Computing',
     },
     {
         id: 'Professional Scrum Master I',
         by: 'Scrum.org',
         exam: 'PSM I',
         link: 'https://res.cloudinary.com/dbweq69kp/image/upload/v1672738391/Certificates/psmi_xq2gu9.png',
+        topic: 'Scrum & Agile'
     }
 ]
 

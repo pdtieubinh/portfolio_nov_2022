@@ -1,5 +1,5 @@
 import { Chart } from "react-google-charts";
-import { educations, moocs } from "../../script/scripts";
+import { moocs } from "../../script/scripts";
 
 export function EduMoocTopicChart() {
   const copyData = [...moocs]
@@ -30,7 +30,7 @@ export function EduMoocTopicChart() {
       data={data}
       options={options}
       width="100%"
-      height="200px"
+      height="160px"
     />
   );
 }
@@ -64,7 +64,7 @@ export function EduMoocProviderChart() {
       data={data}
       options={options}
       width="100%"
-      height="200px"
+      height="160px"
     />
   );
 }
@@ -73,9 +73,9 @@ export function EduSchoolGPAChart() {
   const data = [
     [
       "Study Scope",
-      "Credits Year 1",
-      "Credits Year 2",
-      "Credits Year 3",
+      "Credits in year 1",
+      "Credits in year 2",
+      "Credits in year 3",
       "Grade"
     ],
     ["Computer Science Studies", 15, 30, 24, 4.2],
@@ -91,14 +91,11 @@ export function EduSchoolGPAChart() {
     legend: {
       position: 'top'
     },
-    series: { 
+    series: {
       3: { type: 'line', pointSize: 6, targetAxisIndex: 2 }
     },
     vAxes: {
-      1: {
-        title:'Credits',
-        textStyle: {color: 'red'}
-      },
+      1: {},
       2: {
         title:'Grade',
         baseline: 0,
