@@ -69,7 +69,7 @@ function ContactContent({ script }) {
 
     return (
         <div className='ContactContent' onMouseLeave={unhover}>
-            <img alt={`${script.id} logo`} src={script.link} onMouseEnter={hover} onClick={click}/>
+            <img alt={`${script.id} by Icons8`} src={script.link} onMouseEnter={hover} onClick={click}/>
             <Popper id={id} open={open} anchorEl={anchorEl}>
                 <ContactText script={script} copied={copied}/>
             </Popper>

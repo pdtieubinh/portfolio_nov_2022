@@ -1,6 +1,6 @@
 import Grid from '@mui/material/Grid';
 import Section from '../section/Section';
-import { certified } from '../../script/scripts';
+import { skills, certified } from '../../script/scripts';
 import ChartSection from '../charts/ChartSection';
 import { ProCertifiedByChart, ProCertifiedTopicChart } from '../charts/pro';
 import IntroProfile from '../profile/IntroProfile';
@@ -17,6 +17,8 @@ export default function ProSub() {
                 <ProCertifiedTopicChart xs={6} md={12} id={1}/>
                 <ProCertifiedByChart xs={6} md={12} id={2}/>
             </ChartSection>
+
+            <Section title="Technical Skills" scripts={ skills }/>
         </Grid>
     )
 }

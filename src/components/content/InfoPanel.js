@@ -1,6 +1,6 @@
 // import { useEffect, useRef, useState } from 'react';
 import './Content.css';
-import { CerInfo, ExpInfo, EduInfo, MooInfo } from './textInfo';
+import { CerInfo, SkilInfo, ExpInfo, EduInfo, MooInfo } from './textInfo';
 
 // The popup panel (tooltip) containing text info
 export const InfoPanel = ({ type, script }) => {
@@ -30,6 +30,7 @@ export const InfoPanel = ({ type, script }) => {
         //style={{'left': left}}
         >
             {(type.toLowerCase() === 'certified exams') ? <CerInfo script={script}/>
+            : (type.toLowerCase() === 'technical skills') ? <SkilInfo script={script}/>
             : (type.toLowerCase() === 'experiences') ? <ExpInfo script={script}/>
             : (type.toLowerCase() === 'educations') ? <EduInfo script={script}/>
             : (type.toLowerCase() === 'mooc') ? <MooInfo script={script}/>

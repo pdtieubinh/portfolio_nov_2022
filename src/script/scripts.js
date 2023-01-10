@@ -2,22 +2,22 @@ export const profile = [
     {
         id: 'WhatsApp',
         info: '+358 414805030',
-        link: 'https://res.cloudinary.com/dbweq69kp/image/upload/v1673293300/Certificates/whatsapp_pafsge.png'
+        link: 'https://res.cloudinary.com/dbweq69kp/image/upload/v1673346143/Certificates/whatsapp_dpxect.png'
     },
     {
         id: 'Email',
         info: 'binh.pham5918@gmail.com',
-        link: 'https://res.cloudinary.com/dbweq69kp/image/upload/v1673292728/Certificates/gmail_vzl1gr.png'
+        link: 'https://res.cloudinary.com/dbweq69kp/image/upload/v1673346742/Certificates/mail_wz6tdk.png'
     },
     {
         id: 'LinkedIn',
         info: 'https://www.linkedin.com/in/binh-pham-aab6a719a/',
-        link: 'https://res.cloudinary.com/dbweq69kp/image/upload/v1673291696/Certificates/linkedin_lfjhlq.jpg',
+        link: 'https://res.cloudinary.com/dbweq69kp/image/upload/v1673346143/Certificates/linkedin_xyimby.png',
     },
     {
         id: 'GitHub',
         info: 'https://github.com/pdtieubinh',
-        link: 'https://res.cloudinary.com/dbweq69kp/image/upload/v1673291696/Certificates/github_acpvjl.jpg'
+        link: 'https://res.cloudinary.com/dbweq69kp/image/upload/v1673346143/Certificates/github_vzomhu.png'
     }
 ]
 
@@ -50,6 +50,41 @@ export const certified = [
         link: 'https://res.cloudinary.com/dbweq69kp/image/upload/v1672738391/Certificates/psmi_xq2gu9.png',
         topic: 'Scrum & Agile'
     }
+]
+
+export const skills = [
+    {
+        id: 'MongoDB',
+        link: 'https://res.cloudinary.com/dbweq69kp/image/upload/v1673356829/Skills/mongo_cqalbn.png'
+    },
+    {
+        id: 'Express.js',
+        link: 'https://res.cloudinary.com/dbweq69kp/image/upload/v1673356829/Skills/express_nv4urz.png'
+    },
+    {
+        id: 'React',
+        link: 'https://res.cloudinary.com/dbweq69kp/image/upload/v1673356828/Skills/react_qlz8v5.png'
+    },
+    {
+        id: 'Node.js (MERN stack)',
+        link: 'https://res.cloudinary.com/dbweq69kp/image/upload/v1673356828/Skills/node_hxydsi.png'
+    },
+    {
+        id: 'TensorFlow',
+        link: 'https://res.cloudinary.com/dbweq69kp/image/upload/v1673356908/Skills/tf_nifb05.png'
+    },
+    {
+        id: 'Amazon Web Services',
+        link: 'https://res.cloudinary.com/dbweq69kp/image/upload/v1673356908/Skills/aws_ndvlvj.png'
+    },
+    {
+        id: 'Microsoft Azure',
+        link: 'https://res.cloudinary.com/dbweq69kp/image/upload/v1673356908/Skills/azure_souova.png'
+    },
+    {
+        id: 'Unity',
+        link: 'https://res.cloudinary.com/dbweq69kp/image/upload/v1673356955/Skills/unity_ehslnk.png'
+    },
 ]
 
 export const experiences = [
@@ -211,12 +246,24 @@ export const experiences = [
 export const educations = [
     {
         id: 'Aalto University',
-        degree: 'BSc. Data Science',
+        degree: 'Bachelor of Science',
+        place: 'Espoo, Finland',
+        time: 'Sep 2019 - Jul 2022',
+        recognition: 'Graduate with Honours',
+        grade: 'GPA: 4.27 / 5.0; Thesis: 4 / 5',
+        major: 'Data Science',
+        courses: 'Databases, Machine Learning, Artificial Intelligence, Statistical Inference (R), '
+        + 'Data Structures and Algorithms, Principle of Algorithmic Techniques, '
+        + 'Programming Courses (Scala, Python, C, SQL), Creative Coding, Theory of Computation, Human-Computer Interaction',
         link: 'https://res.cloudinary.com/dbweq69kp/image/upload/v1672683503/Portfolio/aalto_k83ote.jpg'
     },
     {
         id: 'High School for The Gifted - VNU',
-        degree: 'High School Diploma, Mathematics',
+        degree: 'High School Diploma',
+        place: 'Ho Chi Minh City, Vietnam',
+        time: 'Sep 2016 - May 2019',
+        grade: 'GPA: 9 / 10',
+        major: 'Mathematics',
         link: 'https://res.cloudinary.com/dbweq69kp/image/upload/v1672685481/Portfolio/ptnk_fzgqbj.jpg'
     }
 ]

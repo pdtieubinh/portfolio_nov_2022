@@ -5,11 +5,7 @@ import Grid from '@mui/material/Grid';
 export default function IntroProfile({ title, scripts }) {
     return (
         <SectionFrame>
-            <Grid container spacing={1}>
-                <Grid item xs={12}>
-                    <ProfileAvatar/>
-                </Grid>
-            </Grid>
+            <ProfileAvatar/>
         </SectionFrame>
     )
 }
@@ -17,9 +13,10 @@ export default function IntroProfile({ title, scripts }) {
 function ProfileAvatar() {
     return (
         <div className='ProfileAvatar'>
-            <img alt='Avatar' src='https://res.cloudinary.com/dbweq69kp/image/upload/v1672685748/Certificates/aws_phg9po.png'/>
+            <img 
+            alt='Avatar' 
+            src='https://res.cloudinary.com/dbweq69kp/image/upload/v1673352745/Portfolio/ava_crd7or.jpg'/>
             <p><b>Binh Pham</b></p>
-            
         </div>
     )
 }

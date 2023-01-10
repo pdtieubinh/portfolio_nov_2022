@@ -17,6 +17,10 @@ export const CerInfo = ({ script }) => (
     </>
 )
 
+export const SkilInfo = ({ script }) => (
+    <p>{ script.id }</p>
+)
+
 export const ExpInfo = ({ script }) => (
     <>
         <p>
@@ -33,7 +37,17 @@ export const ExpInfo = ({ script }) => (
 )
 
 export const EduInfo = ({ script }) => (
-    null
+    <>
+        <p><b>{script.degree}, {script.id}</b></p>
+        <p>{script.time} &middot; {script.place}</p>
+        <p>Major: {script.major}</p>
+        { script.recognition ? <p>Recognition: {script.recognition}</p> : null }
+        <p>Grade: {script.grade}</p>
+        { script.courses ? (<>
+            <div className='LineBreak'></div>
+            <p className='Coursework'>Relevant coursework: {script.courses}</p>
+        </>) : null }
+    </>
 )
 
 export const MooInfo = ({ script }) => (
