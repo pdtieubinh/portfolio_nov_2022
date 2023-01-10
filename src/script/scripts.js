@@ -86,6 +86,10 @@ export const skills = [
         id: 'Unity',
         link: 'https://res.cloudinary.com/dbweq69kp/image/upload/v1673356955/Skills/unity_ehslnk.png'
     },
+    {
+        id: "I'm happy to expand my skillset to suit my work :)",
+        link: 'https://res.cloudinary.com/dbweq69kp/image/upload/v1673389651/Skills/happy_yjwizq.png'
+    }
 ]
 
 export const experiences = [

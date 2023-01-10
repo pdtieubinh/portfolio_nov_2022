@@ -41,7 +41,7 @@ export function ExpTimeChart() {
         data={data}
         options={options}
         width="100%"
-        height="180px"
+        height="200px"
         />
     );
 }
@@ -102,7 +102,7 @@ export function ExpRateChart() {
       data={data}
       options={options}
       width="100%"
-      height="200px"
+      height="220px"
     />
   );
 }
