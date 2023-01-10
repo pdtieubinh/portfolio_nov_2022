@@ -7,9 +7,9 @@
 .App {
     height: fit-content;
     background-color: var(--generalBackground);
-    padding: 4vh 5vw;
+    padding: 0 5vw;
     justify-content: center; 
-    margin-bottom: 60px;
+    margin-bottom: 80px;
 }
 
 .SubApp {

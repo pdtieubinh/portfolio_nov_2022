@@ -3,10 +3,8 @@ import Grid from '@mui/material/Grid';
 import ExpSub from './components/subApp/ExpSub';
 import EduSub from './components/subApp/EduSub';
 import ProSub from './components/subApp/ProSub';
-import CoverPanel from './components/cover/Cover';
+import HeaderPanel from './components/cover/Header';
 import FooterPanel from './components/cover/Footer';
-
-
 
 export default function App() {
   // Disable unwanted warnings
@@ -14,7 +12,7 @@ export default function App() {
 
   return (
     <div className='UpperApp'>
-      <CoverPanel/>
+      <HeaderPanel/>
       <Grid container className="App">
         {/* Grid items follow the 1-2-1 size rule */}
 

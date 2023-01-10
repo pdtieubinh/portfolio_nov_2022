@@ -41,6 +41,7 @@ function ContactContent({ script }) {
 
     const unhover = () => {
         setAnchorEl(null);
+        setCopied(false)
     };
 
     const open = Boolean(anchorEl);
@@ -63,7 +64,6 @@ function ContactContent({ script }) {
         } else {
             navigator.clipboard.writeText(script.info)
             setCopied(true)
-            setTimeout(() => setCopied(false), 2000)
         }
     }
 

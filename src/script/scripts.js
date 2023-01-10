@@ -52,6 +52,7 @@ export const certified = [
     }
 ]
 
+// Images by Icons8
 export const skills = [
     {
         id: 'MongoDB',
@@ -59,7 +60,7 @@ export const skills = [
     },
     {
         id: 'Express.js',
-        link: 'https://res.cloudinary.com/dbweq69kp/image/upload/v1673356829/Skills/express_nv4urz.png'
+        link: 'https://res.cloudinary.com/dbweq69kp/image/upload/v1673367988/Skills/express_fpwdwi.png'
     },
     {
         id: 'React',
